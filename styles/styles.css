@@ -178,3 +178,18 @@ a {
 #jumbotron2 img:hover {
     cursor: pointer;
 }
+
+/*section4*/
+#section4 {
+    text-align: center;
+}
+
+#section4 > div {
+    margin: 0 20%;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+#section4 > p {
+    font-size: 1.3em;
+}
