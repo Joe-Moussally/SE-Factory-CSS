@@ -8,12 +8,15 @@
 /*------------------HEADER and NAVBAR------------------*/
 
 header {
-    background-image: url(../assets/bkg1.jpg);
+    background-image: ;
+    background: rgba(0, 0, 0, 0.5) url(../assets/bkg1.jpg);
+    height: 100%;
+    background-position: center;
+    background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     display: flex;
-
     flex-direction: column;
     padding-bottom: 1vw;
     
@@ -304,3 +307,14 @@ a {
 /*------------------------------------//END OF BODY//------------------------------------*/
 
 /*------------------FOOTER------------------*/
+ footer {
+     background-color: black;
+     color: white;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ footer span {
+     color: lime;
+     text-decoration: underline;
+ }
