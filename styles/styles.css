@@ -209,12 +209,13 @@ a {
 
 /*------------------section6 In The Media------------------*/
 #section6 {
-    background-color:rgba(211, 211, 211, 0.438);
+    background-color:rgba(211, 211, 211, 0.366);
 }
 
 #section6 > h1 {
+    padding: 4% 0;
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 3.3vw;
 }
 
 #section6 img {
@@ -224,6 +225,10 @@ a {
 #section6 > div {
     display: flex;
     flex-direction: column;
+}
+
+#section6 > div > div {
+    margin-bottom: 3%;
 }
 
 #section6 > div div {
