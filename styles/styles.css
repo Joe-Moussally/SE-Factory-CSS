@@ -375,4 +375,7 @@ footer i {
     #section6 > div img {
         width: 100%;
     }
+    #section6 > h1{
+        font-size: 2.8em;
+    }
 }
