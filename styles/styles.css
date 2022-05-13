@@ -70,7 +70,6 @@ a {
 
 /*HERO*/
 #hero {
-    border: 2px red solid;
     display: flex;
     width: 40%;
     flex-direction: column;
@@ -114,4 +113,21 @@ a {
 #stats span {
     color:lime;
     font-size: 4vw;
+}
+
+/*jumbotron1*/
+#jumbotron1 {
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+#jumbotron1 img {
+    width: 50%;
+}
+
+#jumbotron1 > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
