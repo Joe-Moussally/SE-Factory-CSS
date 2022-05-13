@@ -280,12 +280,23 @@ a {
 /*------------------Newsletter Section------------------*/
 #newsletter {
     background-color: rgba(211, 211, 211, 0.366);
+    text-align: center;
+    padding-top: 30px;
+}
+
+#newsletter > p {
     display: flex;
+    flex-direction: column;
+    font-size: 3.6vw;
+    margin: 0 10%;
+    margin: 20px 0;
 }
 
 #newsletter > button {
+    font-size: 2vw;
     background: black;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 5px;
+    margin: 20px 0;
 }
