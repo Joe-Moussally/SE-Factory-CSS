@@ -254,6 +254,12 @@ a {
 }
 
 /*------------------section8 - Strategic Partners------------------*/
+#section8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #section8 > h1 {
     text-align: center;
     font-size: 3.1vw;
@@ -263,4 +269,9 @@ a {
 #section8 > div {
     display: flex;
     justify-content: space-around;
+    width: 70%;
+}
+
+#section8 img {
+    width: 30%;
 }
