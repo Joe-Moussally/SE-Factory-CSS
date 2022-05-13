@@ -66,7 +66,7 @@ button {
 
 a {
     text-decoration: none;
-    font-weight:650;
+    font-weight:500;
     color: white;
     font-size: 1rem;
 }
@@ -343,5 +343,7 @@ footer i {
 }
 /*------------------//END OF FOOTER//------------------*/
 @media only screen and (max-width: 798px) {
-
+    nav section {
+        visibility: hidden;
+    }
 }
