@@ -214,5 +214,19 @@ a {
 
 #section6 > h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 3.5vw;
+}
+
+#section6 img {
+    width: 20%;
+}
+
+#section6 > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#section6 > div div {
+    display: flex;
+    justify-content: space-around;
 }
