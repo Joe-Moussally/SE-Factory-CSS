@@ -196,13 +196,14 @@ a {
 }
 
 #section4 > div {
-    margin: 0 20%;
+    margin: 0 10%;
     font-size: 1.7em;
     margin-bottom: 20px;
 }
 
 #section4 > p {
     font-size: 1.3em;
+    margin: 0 4%;
 }
 
 /*------------------Section 5 - global partners section and quote------------------*/
