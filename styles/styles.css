@@ -327,10 +327,9 @@ footer p {
 footer div {
     display: flex;
     justify-content: space-around;
-    border: 2px red solid;
-    width: 17%;
+    width: 23%;
 }
 
 footer i {
-    width: 30px;
+    transform: scale(1.5);
 }
