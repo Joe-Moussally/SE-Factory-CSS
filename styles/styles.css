@@ -208,3 +208,11 @@ a {
 }
 
 /*------------------section6 In The Media------------------*/
+#section6 {
+    background-color:rgba(211, 211, 211, 0.438);
+}
+
+#section6 > h1 {
+    text-align: center;
+    font-size: 2em;
+}
