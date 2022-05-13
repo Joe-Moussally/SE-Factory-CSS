@@ -276,3 +276,16 @@ a {
     width: 12%;
     object-fit: cover;
 }
+
+/*------------------Newsletter Section------------------*/
+#newsletter {
+    background-color: rgba(211, 211, 211, 0.366);
+    display: flex;
+}
+
+#newsletter > button {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
