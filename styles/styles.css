@@ -30,7 +30,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    padding: 13px 10px;
+    padding: 13px 0px;
 }
 
 nav > img {
@@ -42,7 +42,7 @@ nav > div {
     display: flex;
     flex-wrap: wrap;
     justify-self: flex-end;
-    margin-right: 60px;
+    margin-right: 15px;
 }
 
 nav button {
@@ -333,3 +333,5 @@ footer div {
 footer i {
     transform: scale(1.5);
 }
+/*------------------//END OF FOOTER//------------------*/
+@media only screen and (max-width: 600px)
