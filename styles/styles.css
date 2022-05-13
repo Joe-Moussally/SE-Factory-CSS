@@ -306,14 +306,19 @@ a {
 /*------------------------------------//END OF BODY//------------------------------------*/
 
 /*------------------FOOTER------------------*/
- footer {
-     background-color: black;
-     color: white;
-     display: flex;
-     justify-content: space-around;
- }
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
 
- footer span {
-     color: lime;
-     text-decoration: underline;
- }
+footer span {
+    color: lime;
+    text-decoration: underline;
+}
+
+footer p {
+    font-weight: bold;
+}
