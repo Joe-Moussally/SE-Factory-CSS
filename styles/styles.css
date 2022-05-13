@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    font-size: 1.05rem;
 }
 
 /*------------------HEADER and NAVBAR------------------*/
@@ -13,25 +12,43 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1vw;
+}
+
+header::before {
+    filter: grayscale(100%);
 }
 
 nav {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-weight: bold;
+    padding: 13px 10px;
 }
 
 nav > img {
     width: 84px;
+    margin: 0 60px;
 }
 
 nav > div {
+    display: flex;
+    flex-wrap: wrap;
     justify-self: flex-end;
+    margin-right: 60px;
+}
+
+nav button {
+    padding: 0 7px;
 }
 
 button {
     border: none;
     background: none;
+    white-space: nowrap;
     
 }
 
@@ -39,17 +56,33 @@ a {
     text-decoration: none;
     font-weight:650;
     color: white;
+    font-size: 1rem;
 }
 
 #apply, #hero > button {
     width: fit-content;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 5px;
     background-color:lime;
 }
 
 /*HERO*/
 #hero {
+    border: 2px red solid;
     display: flex;
+    width: 40%;
     flex-direction: column;
+    margin: 30px;
+    margin-top: 200px;
+    margin-left: 5vw;
+    font-size: 2vw;
+    max-width: 550px;
+}
+
+#hero button {
+    font-size: 1.2rem;
+}
+
+#hero > p {
+    margin: 30px 0;
 }
