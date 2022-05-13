@@ -252,3 +252,15 @@ a {
 #section7 > h1 {
     padding: 0px 0;
 }
+
+/*------------------section8 - Strategic Partners------------------*/
+#section8 > h1 {
+    text-align: center;
+    font-size: 3.1vw;
+    margin-top: 50px;
+}
+
+#section8 > div {
+    display: flex;
+    justify-content: space-around;
+}
