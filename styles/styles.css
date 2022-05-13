@@ -8,6 +8,13 @@
 
 /*------------------NABVAR------------------*/
 
+header {
+    background-image: url(../assets/bkg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -18,6 +25,10 @@ nav > img {
     width: 84px;
 }
 
+nav > div {
+    justify-self: flex-end;
+}
+
 button {
     border: none;
     background: none;
@@ -26,15 +37,8 @@ button {
 
 a {
     text-decoration: none;
-    color: white;
     font-weight:650;
-}
-
-header {
-    height: 680px;
-    background-image: url(../assets/bkg1.jpg);
-    background-size: cover;
-    background-position: -120px;
+    color: white;
 }
 
 #apply {
