@@ -6,7 +6,7 @@
     font-size: 1.05rem;
 }
 
-/*------------------NABVAR------------------*/
+/*------------------HEADER and NAVBAR------------------*/
 
 header {
     background-image: url(../assets/bkg1.jpg);
@@ -41,6 +41,15 @@ a {
     color: white;
 }
 
-#apply {
+#apply, #hero > button {
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
     background-color:lime;
+}
+
+/*HERO*/
+#hero {
+    display: flex;
+    flex-direction: column;
 }
