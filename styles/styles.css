@@ -159,4 +159,17 @@ a {
 #jumbotron2 {
     background-color: lime;
     width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 3.5vw;
+    padding: 50px 0;
+}
+
+#jumbotron2 > div {
+    display: flex;
+    justify-content: center;
+}
+
+#jumbotron2 img {
+    width: 30%;
 }
