@@ -124,10 +124,32 @@ a {
 
 #jumbotron1 img {
     width: 50%;
+    object-fit: contain;
 }
 
 #jumbotron1 > div {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 50%;
+}
+
+#jumbotron1 > div > div {
+    font-size: 4vw;
+}
+
+#jumbotron1 > div > p {
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+#jumbotron1 button {
+    margin-right: auto;
+    margin-left: 10;
+    color: lime;
+    border-bottom: 1px lime solid;
+    margin-left: 30px;
+    font-size: 1.1rem;
 }
