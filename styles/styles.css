@@ -321,4 +321,16 @@ footer span {
 
 footer p {
     font-weight: bold;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+    border: 2px red solid;
+    width: 17%;
+}
+
+footer i {
+    width: 30px;
 }
