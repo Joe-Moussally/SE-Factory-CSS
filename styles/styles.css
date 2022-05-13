@@ -139,11 +139,11 @@ a {
 }
 
 #jumbotron1 > div > p {
-    margin-left: 30px;
     margin-top: 40px;
     margin-bottom: 30px;
     font-size: 1.6rem;
     padding: 50px;
+    padding-right: 0;
 }
 
 #jumbotron1 button {
@@ -172,4 +172,9 @@ a {
 
 #jumbotron2 img {
     width: 30%;
+    padding: 0 15px;
+}
+
+#jumbotron2 img:hover {
+    cursor: pointer;
 }
