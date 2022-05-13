@@ -356,7 +356,7 @@ footer i {
 
 /*Media query for flex-direction: columns*/
 @media only screen and (max-width: 768px) {
-    #stats, #jumbotron1, #jumbotron2 div {
+    #stats, #jumbotron1, #jumbotron2 div, #section6 > div div {
         flex-direction: column;
         align-items: center;
     }
@@ -370,5 +370,9 @@ footer i {
     }
     #jumbotron2 {
         font-size: 2.5em;
+    }
+
+    #section6 > div img {
+        width: 100%;
     }
 }
