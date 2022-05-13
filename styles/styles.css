@@ -88,3 +88,30 @@ a {
 #hero > p {
     margin: 30px 0;
 }
+
+/*------------------BODY------------------*/
+
+/*stats*/
+
+#stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin: 30px 10%;
+}
+
+#stats > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 700;
+    justify-content: space-between;
+}
+
+#stats span {
+    color:lime;
+    font-size: 4vw;
+}
