@@ -13,12 +13,14 @@ header {
     background-repeat: no-repeat;
     color: white;
     display: flex;
+
     flex-direction: column;
     padding-bottom: 1vw;
+    
 }
 
 header::before {
-    filter: grayscale(100%);
+    filter:opacity(50%);
 }
 
 nav {
