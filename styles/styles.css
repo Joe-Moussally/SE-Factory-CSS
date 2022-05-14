@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x:visible;
 }
 
 /*------------------HEADER and NAVBAR------------------*/
@@ -331,7 +332,6 @@ footer span {
 footer p {
     font-weight: bold;
     text-align: center;
-    margin: 0 20px;
 }
 
 footer div {
@@ -358,7 +358,7 @@ footer i {
 
 /*Media query for flex-direction: columns*/
 @media only screen and (max-width: 768px) {
-    #stats, #jumbotron1, #jumbotron2 div, #section6 > div div, #section8 > div {
+    #stats, #jumbotron1, #jumbotron2 div, #section6 > div div, #section8 > div , footer{
         flex-direction: column;
         align-items: center;
     }
@@ -388,4 +388,16 @@ footer i {
     #section8 > h1 {
         font-size: 5vw;
     }
+
+    footer p {
+        padding: 30px 0;
+    }
+
+    #newsletter p {
+        font-size: 5vw;
+    }
+    #newsletter button {
+        font-size: 3.5vw;
+    }
+
 }
